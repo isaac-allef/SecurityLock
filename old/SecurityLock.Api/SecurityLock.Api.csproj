@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\SecurityLock\SecurityLock.csproj" />
+    <ProjectReference Include="..\src\SecurityLock.KeyPair\SecurityLock.KeyPair.csproj" />
+    <ProjectReference Include="..\src\SecurityLock.KeyPair.AspNet\SecurityLock.KeyPair.AspNet.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
